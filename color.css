@@ -1,0 +1,264 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #ffffffad;
+    background-image: url(1920px-Persona-series-persona-3-arisato-minato-elizabeth-persona-3.webp);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    background-color: #eaeaeaba;
+    color: #008E9B;
+    width: 90%;
+    margin: auto;
+    min-width: 450px;
+    max-width: 1020px;
+}
+
+header {
+    background-repeat: no-repeat;
+    color: black;
+    padding: 10px;
+}
+
+    header h1 {
+        text-align: center;
+    }
+
+    header h3 {
+        padding-left: 200px;
+    }
+
+    header span {
+        font-style: italic;
+        font-weight: bold;
+        color: #0081CF;
+        padding-right: 15px;
+        text-align: right;
+        display: block;
+    }
+
+
+nav {
+    float: none;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        box-shadow: 0.5px 0.8px 0.8px black;
+        border-bottom: 1px solid #ffffff;
+        display: inline-block;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+    }
+
+        nav a:link {
+            color: red;
+        }
+
+        nav a:visited {
+            color: black;
+        }
+
+        nav a:hover {
+            color: #869dc7;
+            background-color: #eaeaea;
+            text-align: center;
+        }
+
+main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+    padding: 10px 20px;
+    overflow: auto;
+}
+
+h2, h3 {
+    color: #869dc7;
+    font-family: arial, sans-serif;
+    margin: 5px;
+}
+
+figure {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .8em;
+    font-style: italic;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+    background-color: #869dc7e0;
+    clear: both;
+}
+
+    footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer a:hover {
+        color: #ffffff
+    }
+
+#offer a {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+header, main, nav, footer, figure, figcaption {
+    display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+    video {
+        max-width: 600px;
+    }
+
+    body {
+        margin: 0;
+        background-color: #869dc7;
+    }
+
+    #wrapper {
+        width: auto;
+        margin: 0;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    nav {
+        float: none;
+        width: auto;
+    }
+
+        nav li {
+            display: inline-block;
+            padding: 0.5em;
+        }
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav a {
+            border-style: none;
+        }
+
+    h1, h2, h3 {
+        font-size: 120%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    video {
+        max-width: 400px;
+    }
+
+    #wrapper {
+        min-width: 0;
+    }
+
+    header {
+        background-image: url(lighthousemini.jpg);
+    }
+
+        header h1 {
+            padding-left: 0;
+        }
+
+    h1, h2, h3 {
+        font-size: 100%;
+    }
+
+    h2 {
+    }
+
+    span {
+        font-size: 80%;
+    }
+
+    figure {
+        display: none;
+    }
+
+    nav, nav ul, nav li {
+        padding: 0;
+    }
+
+        nav ul ul {
+            position: absolute;
+            display: none;
+        }
+
+            nav ul ul li {
+                position: absolute;
+                display: block;
+            }
+
+        nav li:hover ul {
+            display: block
+        }
+
+        nav li {
+            display: block;
+        }
+
+        nav a {
+            display: block;
+            padding: 0.5em 0;
+            border-bottom: 2px ridge #00005D;
+        }
+}
+
+table {
+    font-size: 20px;
+    margin: auto;
+    border: 1px solid #000066;
+    width: 900px;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+td, th {
+    padding: 5px;
+    font-family: Arial,sans-serif;
+}
+
+caption {
+    font-family: Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: #0192ea;
+}
